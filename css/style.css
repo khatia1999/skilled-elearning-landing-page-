@@ -1,0 +1,142 @@
+/*header*/
+
+.header-div,
+.main-div {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+  margin-bottom: 12rem;
+}
+
+.phone-image {
+  display: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.skilled,
+.skilled2 {
+  font-size: 3.7rem;
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+}
+
+.btn,
+.btn2 {
+  border-radius: 5rem;
+  color: white;
+}
+
+.btn,
+.btn2 {
+  padding: 1.7rem 4.5rem;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #13183f;
+}
+
+.btn2 {
+  background-image: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+/*section1*/
+.section1-div {
+  position: relative;
+  margin-bottom: 35rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.our-modern {
+  color: #83869a;
+  font-size: 2rem;
+  margin-bottom: 4.5rem;
+}
+
+.desktop-img {
+  position: absolute;
+  max-width: 100%;
+  height: 85rem;
+  top: -30rem;
+  right: -40rem;
+}
+
+/*section3*/
+.section2-div {
+  margin-top: 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, 40rem);
+  column-gap: 5rem;
+  row-gap: 5rem;
+}
+
+.inside-div {
+  background-color: white;
+  border-radius: 2rem;
+  height: 40rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.another {
+  background-image: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+h2 {
+  color: white;
+  font-size: 4.5rem;
+  padding: 8rem 3rem;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 4rem;
+  padding: 0.5rem 2rem;
+}
+
+.btn3 {
+  color: #f74780;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #83869a;
+  padding: 2rem 2rem;
+  margin-bottom: 4rem;
+}
+
+.icons {
+  position: relative;
+  top: -3rem;
+  right: -1.5rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.skilled2 {
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  background-color: #13183f;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
